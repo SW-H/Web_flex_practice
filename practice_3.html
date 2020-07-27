@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .exterior_container{
+            width:1000px;
+            height:500px;
+            display:flex;
+            flex-direction: column;           
+        }
+        .interior_box{
+            display:flex;
+            width:100px;
+            height:100px;
+            background-color: palevioletred;
+            margin:10px;
+            border-radius: 10px;
+        }
+        .first_line{
+            display:flex;
+        }
+        .second_line{
+            display:flex;
+            margin-left:150px;
+        }
+        .third_line{
+            display:flex;
+            margin-left:300px;
+        }
+    </style>
+</head>
+<body>
+    <div class='exterior_container'>
+        <div class='first_line'>
+            <div class='interior_box'></div>
+            <div class='interior_box'></div>
+            <div class='interior_box'></div>
+        </div>
+        <div class='second_line'> 
+            <div class='interior_box'></div>
+            <div class='interior_box'></div>
+            <div class='interior_box'></div>
+        </div>
+        <div class='third_line'> 
+            <div class='interior_box'></div>
+            <div class='interior_box'></div>
+            <div class='interior_box'></div>
+        </div>
+       
+    </div>
+</body>
+</html>
